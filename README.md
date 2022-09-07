@@ -23,9 +23,11 @@ To resolve this issue we refactored this code by the use of 4 arrays "tickers, t
 1. Initalizing three new arrays: We used three new arrays in the refactor code by initializing tickerVolumes as Long, tickerStartingPrices and tickerEndingPrices as Single.
 
 >    Dim tickerVolumes(11) As Long 
+---
 >    Dim tickerStartingPrices(11) As Single
+---
 >    Dim tickerEndingPrices(11) As Single
-
+---
 Then we assign all of these arrays = 0 before entering into the For Loop to loop over all the rows in the spreadsheet
     
 2. If-Then statements: In this code we used tickerIndex in thr arrays to store the value of tickerVolumes, tickerStartingPrices and tickerEnding prices for each tickers.
