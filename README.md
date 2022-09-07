@@ -22,7 +22,7 @@ To resolve this issue we refactored this code by the use of 4 arrays "tickers, t
 ### Steps involved in refactoring code:
 1. Initalizing three new arrays: We used three new arrays in the refactor code by initializing tickerVolumes as Long, tickerStartingPrices and tickerEndingPrices as Single.
 
->   Dim tickerVolumes(11) As Long
+>   Dim tickerVolumes(11) As Long 
     Dim tickerStartingPrices(11) As Single
     Dim tickerEndingPrices(11) As Single
 
@@ -32,7 +32,7 @@ Then we assign all of these arrays = 0 before entering into the For Loop to loop
 
 > tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value
 
-> If Cells(i + 1, 1).Value <> tickers(tickerIndex) And Cells(i, 1).Value = tickers(tickerIndex) Then
+> If Cells(i + 1, 1).Value <> tickers(tickerIndex) And Cells(i, 1).Value = tickers(tickerIndex) Then 
   tickerEndingPrices(tickerIndex) = Cells(i, 6).Value
   End If
 
