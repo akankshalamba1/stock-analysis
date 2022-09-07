@@ -22,7 +22,7 @@ To resolve this issue we refactored this code by the use of 4 arrays "tickers, t
 ### Steps involved in refactoring code:
 1. Initalizing three new arrays: We used three new arrays in the refactor code by initializing tickerVolumes as Long, tickerStartingPrices and tickerEndingPrices as Single.
 
-'''  
+'''ruby  
     Dim tickerVolumes(11) As Long 
     Dim tickerStartingPrices(11) As Single
     Dim tickerEndingPrices(11) As Single
