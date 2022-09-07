@@ -30,19 +30,30 @@ To resolve this issue we refactored this code by the use of 4 arrays "tickers, t
 ---
 Then we assign all of these arrays = 0 before entering into the For Loop to loop over all the rows in the spreadsheet
     
-2. If-Then statements: In this code we used tickerIndex in thr arrays to store the value of tickerVolumes, tickerStartingPrices and tickerEnding prices for each tickers.
+2. If-Then statements: In this code we used tickerIndex in the arrays to store the value of tickerVolumes, tickerStartingPrices and tickerEnding prices for each tickers.
+
+To calculate tickerVolumes for each stocks
 
 > tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value
 
+To calculate the tickerStartingPrices for each stock:
 > If Cells(i + 1, 1).Value <> tickers(tickerIndex) And Cells(i, 1).Value = tickers(tickerIndex) Then 
   tickerEndingPrices(tickerIndex) = Cells(i, 6).Value
   End If
-
+  
+To calculate the tickerEndingPrices for each stock:
 >  If Cells(i + 1, 1).Value <> tickers(tickerIndex) And Cells(i, 1).Value = tickers(tickerIndex) Then
    tickerEndingPrices(tickerIndex) = Cells(i, 6).Value
    End If
 
+By using tickerIndex we are able to get all the values for each stock. In order to get tickerIndex to increase and run throughout all the 3013 rows of the dataset we need to increase the tickerIndex so it changes the ticker and helps us accumilate the currect value for each stock.
 
+Following code is used to increase the tickerIndex
+> If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i + 1, 1).Value <> tickers(tickerIndex) Then
+   tickerIndex = tickerIndex + 1
+   End If
+   
+All this is done in the same For loop **For i = 2 to 3013**
 
 that it was able to provide the results as faster as 0.1914063 seconds for the year of 2017 and 0.2851563 seconds for the year 2018 as depicted in the attached screenshots below:
 
