@@ -20,7 +20,8 @@ This project is based on the above mentioned analysis of the stocks. Our dataset
 To resolve this issue we refactored this code by the use of 4 arrays "tickers, tickerVolumes, tickerEndingPrice, tickerStartingPrices" with the help of arrays and for loops the system was able to look through the dataset in a much quicker and effective manner.
 
 ### Steps involved in refactoring code:
-1. Initalizing three new arrays: We used three new arrays in the refactor code by initializing tickerVolumes as Long, tickerStartingPrices and tickerEndingPrices as Single.
+1. Initalizing three new arrays: 
+We used three new arrays in the refactor code by initializing tickerVolumes as Long, tickerStartingPrices and tickerEndingPrices as Single.
 
 >    Dim tickerVolumes(11) As Long 
 ---
@@ -30,7 +31,8 @@ To resolve this issue we refactored this code by the use of 4 arrays "tickers, t
 ---
 Then we assign all of these arrays = 0 before entering into the For Loop to loop over all the rows in the spreadsheet
     
-2. If-Then statements: In this code we used tickerIndex in the arrays to store the value of tickerVolumes, tickerStartingPrices and tickerEnding prices for each tickers.
+2. If-Then statements: 
+In this code we used tickerIndex in the arrays to store the value of tickerVolumes, tickerStartingPrices and tickerEnding prices for each tickers.
 
 To calculate tickerVolumes for each stocks
 
@@ -55,7 +57,8 @@ Following code is used to increase the tickerIndex
    
 All this is done in the same For loop **For i = 2 to 3013**
 
-that it was able to provide the results as faster as 0.1914063 seconds for the year of 2017 and 0.2851563 seconds for the year 2018 as depicted in the attached screenshots below:
+## Results:
+By refactoring the code as mentioned above we were able to provide the results as faster as 0.1914063 seconds for the year of 2017 and 0.2851563 seconds for the year 2018 as depicted in the attached screenshots below:
 
 ### Refactor code outcome for 2017
 ![Test Image](/Resources/VBA_Challenge_2017.png)
@@ -63,10 +66,14 @@ that it was able to provide the results as faster as 0.1914063 seconds for the y
 ### Refactor code outcome for 2018
 ![Test Image](/Resources/VBA_Challenge_2018.png)
 
-## Results:
+#### Analytical outcome: 
+- **Based on 2017 data**: As per the analysis of 2017 stocks of the 12 green energy corporations it is observed that all the stocks provided good returns except from the TERP stock which provide negative (-7.2%) return. Based on this analysis stock SPWR has the highest Total Daily Volume of $782,187,000 and 184.5% return whereas the highest percentage return is on DQ stock with 199.4%, but its Total daily volume is only $35,796,200 which is the least amount other stocks. Based on this analysis SPWR stock is the more benificial stock if Steven parents are looking at investing all their money in one stock. But we also need to see 2018 results to make any recommendations on stock performance.
+
+- **Based on 2018 data**: As per the analysis of 2018 stock market of all the green energy stock corporations experenced a low returns on their shares. The returns of DQ and SPWR fall to negetive (-62.6%) and negetive (-44.6%). The only stock that had a boom in its growth as compared to 2017 data is RUN, with $502,757100 Total Daily Volume and 84.0% return in 2018 as compared to $267,681,300 Total Daily Volume and 5.5% return. 
 
 ## Summary:
-### What are the advantages ro disadvantages of refactoring code?
+
+### What are the advantages to disadvantages of refactoring code?
 ### How do these pros and cons apply to refactoring the orignal VBA script?
 
 
