@@ -88,6 +88,5 @@ Code refactoring is a technique used to rearrange or restructure the existing co
 - **Time consuming and expensive**: In real life scenerios it could be a time consuming and expensive method as instead of creating a new code we are refactoring an old code. It will include finding ways to edit and modify the code in a way that it becomes less complex without effecting the outcome, it could be tricky sometimes and might include spending hours in editing the code. Rather than starting a new one.
 
 ### How do these pros and cons apply to refactoring the orignal VBA script?
-
-
+The orignal VBA script provided in this challeneg is missing few steps like creating of the output arrays, creating for loops
 
