@@ -77,12 +77,14 @@ Code refactoring is a technique used to rearrange or restructure the existing co
 
 #### Advantages of Refactoring
 
-- **Increase code flexibilty**: It gives and opportunity to the developer to always implement new techniques and functions to the code in order to have a better performance as well as to make the code flexible by using standardized functions and thus increasing the capability of the code.
-- **Maintanability**: By using refactoring technique the developer keeps refreshing the code by adding or changing the code to provide outcome in a less timely manner with more accurace and making it easy to understand or read
+- **Increase code flexibilty**: It gives an opportunity to the developers to always implement new techniques and functions to the code in order to have a better performance as well as to make the code flexible by using standardized functions and thus increasing the capability of the code. Programmers can refactor while they also move forward with deployment processes.
+
+- **Maintanability**: By using refactoring technique the developer keeps refreshing the code by adding or changing the code to provide outcome in a less timely manner with more accurace and making it easy to understand or read. As well as keep the code upto date
 
 #### Disadvantages of Refactoring
 
 - **Chances of introducing bugs**: In case if it went wrong, you will have to waste much more time in solving the problem and there are probable chances that it may go wrong due to complexity of the code and end up stuck with the debugging of the code. 
+
 - **Time consuming and expensive**: In real life scenerios it could be a time consuming and expensive method as instead of creating a new code we are refactoring an old code. It will include finding ways to edit and modify the code in a way that it becomes less complex without effecting the outcome, it could be tricky sometimes and might include spending hours in editing the code. Rather than starting a new one.
 
 ### How do these pros and cons apply to refactoring the orignal VBA script?
