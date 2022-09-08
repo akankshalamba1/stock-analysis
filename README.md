@@ -101,8 +101,14 @@ and
 
 to loop over all the rows of the worksheets. At the end we used anther for loop to set the cell color for "green" and "red" in case of "positive" and "negetive" results respectively. This function works well in case of small amount of data, but in case larger datasets its speed might be slow
 
-To solve this shortcome of the code we refactored the code using the VBA script ptovided in this challenge
+To solve this shortcome of the code we refactored the code using the VBA script provided in this challenge
 
 **Vba_Challenege
 
-By using arrays for all the data outputs like tickerVolume, tickerStartingPrices and tickerEndingPrices we were able to store the values in the array of each ticker and at the end of the For loop running over the rows we got the system to print the stored values for different arrays at the very end and it is outside of the for loop, where as in the orignal code we got the system to print the result each time the ticker changes. It helped to save alot of time and by using standardized functions it made the code very systematic and easy to understand. 
+**Advantage of Refactoring VBA script**
+By using arrays for all the data outputs like tickerVolume, tickerStartingPrices and tickerEndingPrices we were able to store the values in the array of each ticker and at the end of the For loop running over the rows we got the system to print the stored values for different arrays at the very end and it is outside of the for loop, where as in the orignal code we got the system to print the result each time the ticker changes. As well as by seprating the output code from the for loop it avoid excel from going back and forth from the (yearValue) worksheet to All Stock Analysis worksheet and thus helped to save alot of time and by using standardized functions it made the code very systematic and easy to understand.
+
+**Difficulties while Refactoring VBA script**
+During the process of refactoring several time we run into errors and had to keep debugging our code to provide the same results as the orignal stript. Refactoring could be stressful for someone to coding as they are not sure of the different techniques to get the same outcome as well as they are not sure how to resolve various error messages that might pop up while debugging the code. Assigning arrays was tideous so we had to take help from sources like Stack Overflow and Quora for concept clarity.
+
+To conclude, we can say that Refactoring is a great technique to keep updating the code, but it needs good knowledge of the coding to work in the best intrest of the user.
