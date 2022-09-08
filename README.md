@@ -72,8 +72,19 @@ By refactoring the code as mentioned above we were able to provide the results a
 - **Based on 2018 data**: As per the analysis of 2018 stock market of all the green energy stock corporations experenced a low returns on their shares. The returns of DQ and SPWR fall to negetive (-62.6%) and negetive (-44.6%). The only stock that had a boom in its growth as compared to 2017 data is RUN, with $502,757100 Total Daily Volume and 84.0% return in 2018 as compared to $267,681,300 Total Daily Volume and 5.5% return. 
 
 ## Summary:
-
+Code refactoring is a technique used to rearrange or restructure the existing code as called Editing of the code. It is a most common practice used by Data professionals or developers. The process takes by executing factoring without changing the external behavior of the code or the output of the code. The reason one uses code refactoring is to improve the nonfunctional characters of the code. It helps in removing the complecation of the code and enhancing the reliability of the code. Code refactoring also helps in eliminating vulnerabilities of the system and also removes bugs. It is a cycle of continuous enhancements of the code by using different methods to make it better and more time efficient.
 ### What are the advantages to disadvantages of refactoring code?
+
+#### Advantages of Refactoring
+
+- **Increase code flexibilty**: It gives and opportunity to the developer to always implement new techniques and functions to the code in order to have a better performance as well as to make the code flexible by using standardized functions and thus increasing the capability of the code.
+- **Maintanability**: By using refactoring technique the developer keeps refreshing the code by adding or changing the code to provide outcome in a less timely manner with more accurace and making it easy to understand or read
+
+#### Disadvantages of Refactoring
+
+- **Chances of introducing bugs**: In case if it went wrong, you will have to waste much more time in solving the problem and there are probable chances that it may go wrong due to complexity of the code and end up stuck with the debugging of the code. 
+- **Time consuming and expensive**: In real life scenerios it could be a time consuming and expensive method as instead of creating a new code we are refactoring an old code. It will include finding ways to edit and modify the code in a way that it becomes less complex without effecting the outcome, it could be tricky sometimes and might include spending hours in editing the code. Rather than starting a new one.
+
 ### How do these pros and cons apply to refactoring the orignal VBA script?
 
 
