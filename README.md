@@ -102,7 +102,7 @@ and
 
 to loop over all the rows of the worksheets. At the end we used anther for loop to set the cell color for "green" and "red" in case of "positive" and "negetive" results respectively. This function works well in case of small amount of data, but in case larger datasets its speed might be slow
 
-To solve this shortcome of the code we refactored the code using the VBA script provided in this challenge
+To solve this shortcome of the code we refactored the code using the VBA script provided in this challenge as attached below
 
 [Starter Code - VBA Script](/VBA_Challenge.vbs)
 
